@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.wancy.flickster.MovieActivity">
+    tools:context="com.wancy.flickster.MovieActivity"
+    android:background="@color/black">
 
     <ListView
         android:id="@+id/lvMovies"
@@ -13,5 +14,7 @@
         tools:layout_editor_absoluteX="7dp"
         tools:layout_editor_absoluteY="7dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

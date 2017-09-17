@@ -17,6 +17,7 @@
         android:layout_height="wrap_content"
         android:text="TextView"
         android:layout_toEndOf="@+id/ivMovieImage"
+        android:textColor="#FFFFFF"
         android:layout_alignParentTop="true" />
 
     <TextView
@@ -26,5 +27,6 @@
         android:text="TextView"
         android:layout_alignStart="@+id/tvTitle"
         android:layout_alignBottom="@+id/ivMovieImage"
+        android:textColor="#FFFFFF"
         android:layout_below="@+id/tvTitle" />
 </RelativeLayout>
